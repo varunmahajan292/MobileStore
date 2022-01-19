@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_Accessories"
+            android:icon="@drawable/ic_speaker_phone_black_24dp"
+            android:title="Accessories" />
+        <item
+            android:id="@+id/nav_AllGadgets"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="All Brands" />
+        <item
+            android:id="@+id/nav_Samsung"
+            android:icon="@drawable/ic_phone_android_black_24dp"
+            android:title="Samsung" />
+        <item
+            android:id="@+id/nav_Iphone"
+            android:icon="@drawable/ic_phone_iphone_black_24dp"
+            android:title="Iphone" />
+        <item
+            android:id="@+id/nav_MyProfile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="My Profile" />
+
+        <item
+            android:id="@+id/nav_AboutUs"
+            android:icon="@drawable/ic_pin_drop_black_24dp"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_Logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Logout" />
+    </group>
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "763211872360",
+    "firebase_url": "https://meraphone-b8cc3.firebaseio.com",
+    "project_id": "meraphone-b8cc3",
+    "storage_bucket": "meraphone-b8cc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763211872360:android:1cfe60b783c9bb7fd163dd",
+        "android_client_info": {
+          "package_name": "com.example.meraphone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763211872360-sbtkr5efjg1gpofc81btjs7ciqth913n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADKgGQxhDLOrJ-y-hGI0LHjd5iVg1JF2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763211872360-sbtkr5efjg1gpofc81btjs7ciqth913n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

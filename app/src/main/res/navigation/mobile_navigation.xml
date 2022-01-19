@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.meraphone.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.example.meraphone.ui.home.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_AboutUs"
+        android:name="com.example.meraphone.ui.AboutUs.AboutUsFragment"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/nav_Accessories"
+        android:name="com.example.meraphone.ui.Accessories.AccessoriesFragment"
+        android:label="Accessories"
+        tools:layout="@layout/fragment_accessories" />
+    <fragment
+        android:id="@+id/nav_AllGadgets"
+        android:name="com.example.meraphone.ui.AllGadgets.AllGadgetsFragment"
+        android:label="All Brands"
+        tools:layout="@layout/fragment_all_gadgets" />
+    <fragment
+        android:id="@+id/nav_Samsung"
+        android:name="com.example.meraphone.ui.Samsung.SamsungFragment"
+        android:label="Samsung"
+        tools:layout="@layout/fragment_samsung" />
+    <fragment
+        android:id="@+id/nav_Iphone"
+        android:name="com.example.meraphone.ui.Iphone.IphoneFragment"
+        android:label="Iphone"
+        tools:layout="@layout/fragment_iphone" />
+    <fragment
+        android:id="@+id/nav_MyProfile"
+        android:name="com.example.meraphone.ui.MyProfile.MyProfileFragment"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_my_profile" />
+    <fragment
+        android:id="@+id/nav_MyPurchases"
+        android:name="com.example.meraphone.ui.MyPurchases.MyPurchasesFragment"
+        android:label="My Purchases"
+        tools:layout="@layout/fragment_my_purchases" />
+    <fragment
+        android:id="@+id/nav_Logout"
+        android:name="com.example.meraphone.ui.Logout.LogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
+</navigation>

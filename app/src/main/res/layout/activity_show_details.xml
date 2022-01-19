@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowDetailsActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        app:titleTextColor="@color/colorwhite"
+        app:title="Car Details"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+
+    </androidx.appcompat.widget.Toolbar>
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/name"
+                android:text="Samsung S10"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/s10pic" />
+
+
+
+            <TextView
+                android:id="@+id/des"
+                android:text="Price"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/cost"
+                android:text="250"
+                android:textSize="20sp"
+                android:drawableLeft="@drawable/ic_attach_money_black_24dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:layout_below="@+id/img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_below="@+id/des"
+                android:layout_height="1dp"
+                android:background="@color/colorgrey"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/model"
+                android:text="Model Name"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/des"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_below="@+id/model"
+                android:layout_height="1dp"
+                android:background="@color/colorgrey"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:id="@+id/modelnumber"
+                android:text="Samsung S10"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:layout_below="@+id/cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/frontcamera"
+                android:text="Front Camera"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/modelnumber"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_below="@+id/frontcamera"
+                android:layout_height="1dp"
+                android:background="@color/colorgrey"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:id="@+id/megapixelfront"
+                android:text="48 MP"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:layout_below="@+id/modelnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/Backcamera"
+                android:text="Back Camera"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/frontcamera"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_below="@+id/Backcamera"
+                android:layout_height="1dp"
+                android:background="@color/colorgrey"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:id="@+id/megapixelback"
+                android:text="48MP, 48MP, 28MP"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:layout_below="@+id/megapixelfront"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/Hybrid"
+                android:text="Hybrid Sim Slot"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/Backcamera"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_below="@+id/Hybrid"
+                android:layout_height="1dp"
+                android:background="@color/colorgrey"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:id="@+id/HybridYes"
+                android:text="Yes"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:layout_below="@+id/megapixelback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/OTGCompatible"
+                android:text="OTG Compatible"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/HybridYes"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_below="@+id/OTGCompatible"
+                android:layout_height="1dp"
+                android:background="@color/colorgrey"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:id="@+id/OTGyes"
+                android:text="Yes"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:layout_below="@+id/HybridYes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/touchscreen"
+                android:text="Touchscreen"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/OTGCompatible"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_below="@+id/touchscreen"
+                android:layout_height="1dp"
+                android:background="@color/colorgrey"
+                android:layout_marginBottom="5dp"/>
+            <TextView
+                android:id="@+id/tocuhscreenyes"
+                android:text="Yes"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_alignParentRight="true"
+                android:textStyle="bold"
+                android:layout_below="@+id/OTGyes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/btn_cart"
+
+                android:layout_below="@+id/tocuhscreenyes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:background="#2B65EC"
+                android:text="Add To Cart"
+                android:textColor="@color/colorwhite"
+                android:textSize="25dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/add_phone"
+        android:orderInCategory="100"
+        android:title="Add Phone"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/add_access"
+        android:orderInCategory="100"
+        android:title="Add Accessories"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/phones"
+        android:orderInCategory="100"
+        android:title="Phones"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/access"
+        android:orderInCategory="100"
+        android:title="Accessories"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/allorders"
+        android:orderInCategory="100"
+        android:title="View All Orders"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/Logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>
+
+

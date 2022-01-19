@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MeraPhone</string>
+    <string name="title_activity_mera_phon_drawer">MeraPhonDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cat_prompt">Choose a category</string>
+    <string-array name="phone_categories">
+        <item>Select Category</item>
+        <item>I-Phone</item>
+        <item>Samsung</item>
+        <item>Vivo</item>
+        <item>Redmi</item>
+    </string-array>
+    <string name="choice_prompt">Select Yes Or No</string>
+    <string-array name="choice">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+</resources>
